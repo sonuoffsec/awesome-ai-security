@@ -1,9 +1,7 @@
 ﻿<div align="center">
 
-<img width="1536" height="1024" alt="AI_Security_Hub" src="https://github.com/user-attachments/assets/222d5974-a585-488b-9bf9-24c3915e14b4" />
+<img src="https://github.com/user-attachments/assets/222d5974-a585-488b-9bf9-24c3915e14b4" width="220" alt="AI Security Hub" />
 
-
-<br/>
 <br/>
 
 # AI Security Hub
@@ -12,12 +10,30 @@
 
 <br/>
 
-<a href="https://github.com/sonuoffsec/AI-Security-Hub/stargazers"><img src="https://img.shields.io/github/stars/sonuoffsec/AI-Security-Hub?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=STARS" alt="Stars"/></a>
-<a href="https://github.com/sonuoffsec/AI-Security-Hub/network/members"><img src="https://img.shields.io/github/forks/sonuoffsec/AI-Security-Hub?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=FORKS" alt="Forks"/></a>
-<a href="https://github.com/sonuoffsec/AI-Security-Hub/graphs/contributors"><img src="https://img.shields.io/github/contributors/sonuoffsec/AI-Security-Hub?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=CONTRIBUTORS" alt="Contributors"/></a>
-<a href="https://github.com/sonuoffsec/AI-Security-Hub/issues"><img src="https://img.shields.io/github/issues/sonuoffsec/AI-Security-Hub?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=ISSUES" alt="Issues"/></a>
-<a href="https://github.com/sonuoffsec/AI-Security-Hub/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-WELCOME-00d4ff?style=for-the-badge&labelColor=0d1117" alt="PRs Welcome"/></a>
-<a href="LICENSE"><img src="https://img.shields.io/github/license/sonuoffsec/AI-Security-Hub?style=for-the-badge&color=00d4ff&labelColor=0d1117" alt="License"/></a>
+<!-- Dynamic stats — via badgen (no token pool issue) -->
+<a href="https://github.com/sonuoffsec/AI-Security-Hub/stargazers">
+  <img src="https://badgen.net/github/stars/sonuoffsec/AI-Security-Hub?color=00d4ff&label=stars" alt="Stars"/>
+</a>
+<a href="https://github.com/sonuoffsec/AI-Security-Hub/network/members">
+  <img src="https://badgen.net/github/forks/sonuoffsec/AI-Security-Hub?color=00d4ff&label=forks" alt="Forks"/>
+</a>
+<a href="https://github.com/sonuoffsec/AI-Security-Hub/graphs/contributors">
+  <img src="https://badgen.net/github/contributors/sonuoffsec/AI-Security-Hub?color=00d4ff&label=contributors" alt="Contributors"/>
+</a>
+<a href="https://github.com/sonuoffsec/AI-Security-Hub/issues">
+  <img src="https://badgen.net/github/open-issues/sonuoffsec/AI-Security-Hub?color=00d4ff&label=issues" alt="Issues"/>
+</a>
+
+<!-- Static badges — always render, never rate-limited -->
+<a href="https://github.com/sonuoffsec/AI-Security-Hub/blob/main/CONTRIBUTING.md">
+  <img src="https://img.shields.io/badge/PRs-Welcome-00d4ff?style=flat-square&labelColor=0d1117" alt="PRs Welcome"/>
+</a>
+<a href="LICENSE">
+  <img src="https://img.shields.io/badge/License-MIT-00d4ff?style=flat-square&labelColor=0d1117" alt="MIT License"/>
+</a>
+<a href="https://github.com/sonuoffsec/AI-Security-Hub">
+  <img src="https://img.shields.io/badge/Maintained-Yes-00d4ff?style=flat-square&labelColor=0d1117" alt="Maintained"/>
+</a>
 
 <br/>
 <br/>

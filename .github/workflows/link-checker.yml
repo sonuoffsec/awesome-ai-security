@@ -1,0 +1,44 @@
+﻿name: Link Checker
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"  # Every Monday at 8am UTC
+  push:
+    branches: [main]
+    paths:
+      - "**/*.md"
+  workflow_dispatch:
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    name: Check Markdown Links
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check Links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: >
+            --verbose
+            --no-progress
+            --exclude-mail
+            --exclude "localhost"
+            --exclude "127.0.0.1"
+            --exclude "example.com"
+            --exclude "attacker.com"
+            --exclude "evil.com"
+            --timeout 30
+            --retry-wait-time 5
+            --max-retries 3
+            "**/*.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Issue on Link Failure
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Broken links found - automated check"
+          content-filepath: ./lychee/out.md
+          labels: bug, broken-link, automated
