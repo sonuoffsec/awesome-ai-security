@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="assets/logo.png" width="210" alt="AI Security Hub" />
 
@@ -11,12 +11,12 @@
 
 <br/>
 
-<a href="https://github.com/sonuoffsec/awesome-ai-security/stargazers"><img src="https://img.shields.io/github/stars/sonuoffsec/awesome-ai-security?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=STARS" alt="Stars"/></a>
-<a href="https://github.com/sonuoffsec/awesome-ai-security/network/members"><img src="https://img.shields.io/github/forks/sonuoffsec/awesome-ai-security?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=FORKS" alt="Forks"/></a>
-<a href="https://github.com/sonuoffsec/awesome-ai-security/graphs/contributors"><img src="https://img.shields.io/github/contributors/sonuoffsec/awesome-ai-security?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=CONTRIBUTORS" alt="Contributors"/></a>
-<a href="https://github.com/sonuoffsec/awesome-ai-security/issues"><img src="https://img.shields.io/github/issues/sonuoffsec/awesome-ai-security?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=ISSUES" alt="Issues"/></a>
-<a href="https://github.com/sonuoffsec/awesome-ai-security/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-WELCOME-00d4ff?style=for-the-badge&labelColor=0d1117" alt="PRs Welcome"/></a>
-<a href="LICENSE"><img src="https://img.shields.io/github/license/sonuoffsec/awesome-ai-security?style=for-the-badge&color=00d4ff&labelColor=0d1117" alt="License"/></a>
+<a href="https://github.com/sonuoffsec/AI-Security-Hub/stargazers"><img src="https://img.shields.io/github/stars/sonuoffsec/AI-Security-Hub?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=STARS" alt="Stars"/></a>
+<a href="https://github.com/sonuoffsec/AI-Security-Hub/network/members"><img src="https://img.shields.io/github/forks/sonuoffsec/AI-Security-Hub?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=FORKS" alt="Forks"/></a>
+<a href="https://github.com/sonuoffsec/AI-Security-Hub/graphs/contributors"><img src="https://img.shields.io/github/contributors/sonuoffsec/AI-Security-Hub?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=CONTRIBUTORS" alt="Contributors"/></a>
+<a href="https://github.com/sonuoffsec/AI-Security-Hub/issues"><img src="https://img.shields.io/github/issues/sonuoffsec/AI-Security-Hub?style=for-the-badge&color=00d4ff&labelColor=0d1117&label=ISSUES" alt="Issues"/></a>
+<a href="https://github.com/sonuoffsec/AI-Security-Hub/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-WELCOME-00d4ff?style=for-the-badge&labelColor=0d1117" alt="PRs Welcome"/></a>
+<a href="LICENSE"><img src="https://img.shields.io/github/license/sonuoffsec/AI-Security-Hub?style=for-the-badge&color=00d4ff&labelColor=0d1117" alt="License"/></a>
 
 <br/>
 <br/>
@@ -513,8 +513,8 @@ Full guide: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 <p>Built by the security community, for the security community.</p>
 
-<a href="https://github.com/sonuoffsec/awesome-ai-security/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=sonuoffsec/awesome-ai-security" />
+<a href="https://github.com/sonuoffsec/AI-Security-Hub/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sonuoffsec/AI-Security-Hub" />
 </a>
 
 <br/>
@@ -530,7 +530,7 @@ Full guide: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 <div align="center">
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sonuoffsec/awesome-ai-security&type=Date)](https://star-history.com/#sonuoffsec/awesome-ai-security&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=sonuoffsec/AI-Security-Hub&type=Date)](https://star-history.com/#sonuoffsec/AI-Security-Hub&Date)
 
 </div>
 
@@ -542,9 +542,9 @@ Full guide: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 | | Platform | Purpose |
 |:---:|:---|:---|
-| 💬 | [GitHub Discussions](https://github.com/sonuoffsec/awesome-ai-security/discussions) | Questions, ideas, and announcements |
-| 🐛 | [GitHub Issues](https://github.com/sonuoffsec/awesome-ai-security/issues) | Bug reports and content requests |
-| 🔀 | [Pull Requests](https://github.com/sonuoffsec/awesome-ai-security/pulls) | Submit your contributions |
+| 💬 | [GitHub Discussions](https://github.com/sonuoffsec/AI-Security-Hub/discussions) | Questions, ideas, and announcements |
+| 🐛 | [GitHub Issues](https://github.com/sonuoffsec/AI-Security-Hub/issues) | Bug reports and content requests |
+| 🔀 | [Pull Requests](https://github.com/sonuoffsec/AI-Security-Hub/pulls) | Submit your contributions |
 
 </div>
 
