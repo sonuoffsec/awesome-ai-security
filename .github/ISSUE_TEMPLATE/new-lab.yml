@@ -1,0 +1,91 @@
+name: "Add a Lab"
+description: "Submit a new AI security lab or training environment"
+title: "[Lab]: "
+labels: ["lab", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit a vulnerable AI environment or training platform for inclusion in the hub.
+
+  - type: input
+    id: lab-name
+    attributes:
+      label: Lab Name
+      placeholder: "e.g. AgentDojo"
+    validations:
+      required: true
+
+  - type: input
+    id: lab-url
+    attributes:
+      label: URL / GitHub Link
+      placeholder: "https://github.com/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: lab-description
+    attributes:
+      label: Description
+      placeholder: "What does this lab teach? What vulnerabilities does it demonstrate?"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: lab-difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+        - Beginner–Intermediate
+        - Intermediate–Advanced
+        - Beginner–Advanced
+    validations:
+      required: true
+
+  - type: dropdown
+    id: lab-deploy
+    attributes:
+      label: Deployment Method
+      multiple: true
+      options:
+        - Web (no install needed)
+        - Docker
+        - Python
+        - Node.js
+        - Cloud (AWS/GCP/Azure)
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: lab-category
+    attributes:
+      label: Category
+      multiple: true
+      options:
+        - Prompt Injection
+        - RAG Security
+        - Agent Security
+        - MCP Security
+        - Jailbreaking
+        - Red Teaming
+        - General AI Security
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: This lab is freely accessible or self-hostable
+          required: true
+        - label: This lab has clear AI security training value
+          required: true
+        - label: I have personally used or tested this lab
+        - label: This lab is not already listed in the hub
+          required: true

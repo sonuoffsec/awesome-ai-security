@@ -1,0 +1,101 @@
+name: "Add a Payload"
+description: "Submit a new AI attack payload to the collection"
+title: "[Payload]: "
+labels: ["payload", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit a payload to the SecLists-style AI attack payload collection.
+        All payloads are for authorized testing, CTFs, and security research only.
+
+  - type: dropdown
+    id: payload-category
+    attributes:
+      label: Category
+      options:
+        - Prompt Injection — Direct
+        - Prompt Injection — Indirect
+        - Prompt Injection — Multimodal
+        - Jailbreak — Roleplay
+        - Jailbreak — Encoding
+        - Jailbreak — Many-Shot
+        - Jailbreak — Token Manipulation
+        - RAG Attack — Document Poisoning
+        - RAG Attack — Embedding
+        - RAG Attack — Retrieval Confusion
+        - Agent Attack — Tool Poisoning
+        - Agent Attack — Goal Hijacking
+        - Agent Attack — Memory Poisoning
+        - MCP Attack — Tool Injection
+        - MCP Attack — Schema Poisoning
+        - Data Exfiltration
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: payload-name
+    attributes:
+      label: Payload Name
+      placeholder: "e.g. System Prompt Extraction via Translation"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: payload-risk
+    attributes:
+      label: Risk Level
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true
+
+  - type: textarea
+    id: payload-goal
+    attributes:
+      label: Goal
+      description: What does the attacker achieve with this payload?
+    validations:
+      required: true
+
+  - type: textarea
+    id: payload-content
+    attributes:
+      label: Payload
+      description: The actual payload. Use code blocks for clarity.
+      placeholder: |
+        ```
+        Your payload here
+        ```
+    validations:
+      required: true
+
+  - type: textarea
+    id: payload-detection
+    attributes:
+      label: Detection / Defense
+      description: How can defenders detect or prevent this payload?
+    validations:
+      required: true
+
+  - type: textarea
+    id: payload-references
+    attributes:
+      label: References
+      description: Any papers, blogs, or prior research describing this technique.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: This payload is for educational/research/CTF use only
+          required: true
+        - label: This payload includes a detection/defense note
+          required: true
+        - label: This payload is not already in the collection
+          required: true

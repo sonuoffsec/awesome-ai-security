@@ -1,0 +1,83 @@
+name: "Add a Tool"
+description: "Submit a new AI security tool to the hub"
+title: "[Tool]: "
+labels: ["tool", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a tool! Fill out the fields below and we'll review it.
+
+  - type: input
+    id: tool-name
+    attributes:
+      label: Tool Name
+      placeholder: "e.g. Garak"
+    validations:
+      required: true
+
+  - type: input
+    id: tool-link
+    attributes:
+      label: GitHub / Website URL
+      placeholder: "https://github.com/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tool-type
+    attributes:
+      label: Type
+      options:
+        - Open Source
+        - Commercial (free tier available)
+        - Commercial (paid only)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tool-category
+    attributes:
+      label: Category
+      multiple: true
+      options:
+        - Prompt Injection Testing
+        - Red Teaming
+        - Jailbreak Evaluation
+        - Guardrails / Detection
+        - Monitoring / Observability
+        - Agent Security
+        - RAG Security
+        - MCP Security
+        - Security Automation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: tool-description
+    attributes:
+      label: One-Line Description
+      placeholder: "What does this tool do? Be specific about the AI security use case."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: maintenance-status
+    attributes:
+      label: Maintenance Status
+      options:
+        - label: Actively maintained (commit within last 6 months)
+        - label: Stable / archived (not active but functional)
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have verified the URL is correct and the tool is accessible
+          required: true
+        - label: This tool has a clear AI security use case
+          required: true
+        - label: This tool is not already listed in the hub
+          required: true
