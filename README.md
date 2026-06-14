@@ -1,6 +1,7 @@
 ﻿<div align="center">
 
-<img src="assets/logo.png" width="210" alt="AI Security Hub" />
+<img width="1536" height="1024" alt="AI_Security_Hub" src="https://github.com/user-attachments/assets/222d5974-a585-488b-9bf9-24c3915e14b4" />
+
 
 <br/>
 <br/>
