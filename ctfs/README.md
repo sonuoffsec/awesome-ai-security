@@ -1,6 +1,6 @@
-# AI Security CTF Challenges
+﻿# AI Security CTF Challenges
 
-> Competitive AI security challenges — ordered by skill level.
+> Competitive AI security challenges - ordered by skill level.
 > Test your skills against real AI security scenarios.
 
 ---
@@ -112,8 +112,8 @@
 ### Getting Started
 
 ```
-1. Start with Gandalf — free, always available, great for learning
-2. Work through PortSwigger LLM labs — structured learning path
+1. Start with Gandalf - free, always available, great for learning
+2. Work through PortSwigger LLM labs - structured learning path
 3. Join Crucible for ongoing challenges
 4. Work up to HackAPrompt competition
 5. Aim for AI Village @ DEF CON

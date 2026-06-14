@@ -1,4 +1,4 @@
-name: "Bug Report / Broken Link"
+﻿name: "Bug Report / Broken Link"
 description: "Report a broken link, incorrect information, or other error"
 title: "[Bug]: "
 labels: ["bug", "good-first-issue"]
@@ -20,7 +20,7 @@ body:
     id: file-location
     attributes:
       label: File / Section
-      placeholder: "e.g. tools/README.md — Prompt Injection Testing section"
+      placeholder: "e.g. tools/README.md - Prompt Injection Testing section"
     validations:
       required: true
 

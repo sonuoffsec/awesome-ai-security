@@ -1,4 +1,4 @@
-name: "Add a Payload"
+﻿name: "Add a Payload"
 description: "Submit a new AI attack payload to the collection"
 title: "[Payload]: "
 labels: ["payload", "needs-review"]
@@ -14,21 +14,21 @@ body:
     attributes:
       label: Category
       options:
-        - Prompt Injection — Direct
-        - Prompt Injection — Indirect
-        - Prompt Injection — Multimodal
-        - Jailbreak — Roleplay
-        - Jailbreak — Encoding
-        - Jailbreak — Many-Shot
-        - Jailbreak — Token Manipulation
-        - RAG Attack — Document Poisoning
-        - RAG Attack — Embedding
-        - RAG Attack — Retrieval Confusion
-        - Agent Attack — Tool Poisoning
-        - Agent Attack — Goal Hijacking
-        - Agent Attack — Memory Poisoning
-        - MCP Attack — Tool Injection
-        - MCP Attack — Schema Poisoning
+        - Prompt Injection - Direct
+        - Prompt Injection - Indirect
+        - Prompt Injection - Multimodal
+        - Jailbreak - Roleplay
+        - Jailbreak - Encoding
+        - Jailbreak - Many-Shot
+        - Jailbreak - Token Manipulation
+        - RAG Attack - Document Poisoning
+        - RAG Attack - Embedding
+        - RAG Attack - Retrieval Confusion
+        - Agent Attack - Tool Poisoning
+        - Agent Attack - Goal Hijacking
+        - Agent Attack - Memory Poisoning
+        - MCP Attack - Tool Injection
+        - MCP Attack - Schema Poisoning
         - Data Exfiltration
         - Other
     validations:

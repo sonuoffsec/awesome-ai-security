@@ -1,8 +1,8 @@
-# Contributing to AI Security Hub
+﻿# Contributing to AI Security Hub
 
 Thank you for helping build the world's most comprehensive AI security resource.
 
-Every contribution — a single payload, a tool entry, a cheat sheet fix — makes this hub more powerful for every researcher, student, and red team that uses it.
+Every contribution - a single payload, a tool entry, a cheat sheet fix - makes this hub more powerful for every researcher, student, and red team that uses it.
 
 ---
 
@@ -75,10 +75,10 @@ Follow the standards below for each content type.
 Use conventional commit format:
 
 ```bash
-git commit -m "add: payload — MCP tool call injection via schema poisoning"
+git commit -m "add: payload - MCP tool call injection via schema poisoning"
 git commit -m "fix: broken link for Garak GitHub"
-git commit -m "add: tool — PromptBench adversarial evaluation"
-git commit -m "add: lab — Crucible by Dreadnode"
+git commit -m "add: tool - PromptBench adversarial evaluation"
+git commit -m "add: lab - Crucible by Dreadnode"
 ```
 
 ### 5. Push and Open PR
@@ -141,13 +141,13 @@ Payloads are the most valuable contribution type. Use this template:
 **File location**: `payloads/[category]/[technique-name].md`
 
 **Categories:**
-- `prompt-injection/` — direct, indirect, multimodal
-- `jailbreaks/` — roleplay, encoding, many-shot, token manipulation
-- `rag-attacks/` — document poisoning, embedding attacks
-- `agent-attacks/` — tool poisoning, memory injection, goal hijacking
-- `mcp-attacks/` — schema poisoning, tool injection, cross-server
-- `data-exfiltration/` — system prompt leak, context exfiltration
-- `indirect-prompt-injection/` — web, email, document, tool output
+- `prompt-injection/` - direct, indirect, multimodal
+- `jailbreaks/` - roleplay, encoding, many-shot, token manipulation
+- `rag-attacks/` - document poisoning, embedding attacks
+- `agent-attacks/` - tool poisoning, memory injection, goal hijacking
+- `mcp-attacks/` - schema poisoning, tool injection, cross-server
+- `data-exfiltration/` - system prompt leak, context exfiltration
+- `indirect-prompt-injection/` - web, email, document, tool output
 
 ---
 
@@ -209,21 +209,21 @@ Talks:
 1. Ensure your PR targets the `main` branch.
 2. Fill out the PR template completely.
 3. Link any relevant issues.
-4. Wait for review — typically within 3–5 days.
+4. Wait for review - typically within 3–5 days.
 5. Address any review comments.
 
 ### PR Title Format
 
 ```
-add: [type] — brief description
+add: [type] - brief description
 fix: brief description
-improve: [section] — brief description
+improve: [section] - brief description
 ```
 
 Examples:
-- `add: payload — indirect PI via email body injection`
+- `add: payload - indirect PI via email body injection`
 - `fix: broken link in MCP tools section`
-- `improve: cheatsheet/rag-security — add detection methods`
+- `improve: cheatsheet/rag-security - add detection methods`
 
 ---
 
@@ -231,9 +231,9 @@ Examples:
 
 All contributors are recognized:
 
-- **README Contributors wall** — your GitHub avatar appears in the contributors section
-- **CONTRIBUTORS.md** — your contribution types are listed
-- **Release notes** — notable contributions are called out in releases
+- **README Contributors wall** - your GitHub avatar appears in the contributors section
+- **CONTRIBUTORS.md** - your contribution types are listed
+- **Release notes** - notable contributions are called out in releases
 
 ### Contribution Types (all-contributors spec)
 
@@ -254,4 +254,4 @@ All contributors are recognized:
 
 ## Questions?
 
-Open a [GitHub Discussion](https://github.com/sonuoffsec/awesome-ai-security/discussions) — we're happy to help you make your first contribution.
+Open a [GitHub Discussion](https://github.com/sonuoffsec/awesome-ai-security/discussions) - we're happy to help you make your first contribution.

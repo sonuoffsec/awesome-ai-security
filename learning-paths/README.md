@@ -1,7 +1,7 @@
-# AI Security Learning Paths
+﻿# AI Security Learning Paths
 
 > Structured journeys from zero to AI security expert.
-> Each path is curated — not just a list of links.
+> Each path is curated - not just a list of links.
 
 ---
 
@@ -145,7 +145,7 @@ Week 2-3: Offensive Agent Security
   □ Install and run: AgentDojo
       pip install agentdojo
   □ Practice: Goal hijacking via injected instructions
-  □ Practice: Tool poisoning — create a malicious tool definition
+  □ Practice: Tool poisoning - create a malicious tool definition
   □ Read: payloads/agent-attacks/ (this repo)
 
 Week 4: Multi-Agent & Memory Attacks
@@ -201,7 +201,7 @@ Week 5-6: Defensive & Research
 ```
 □ Read: Microsoft AI Red Team methodology
 □ Read: AI Red Team Cheat Sheet (this repo)
-□ Study: PyRIT framework — full documentation
+□ Study: PyRIT framework - full documentation
 □ Build: Custom red team automation pipeline
 □ Complete: Advanced Crucible challenges
 □ Goal: Lead an AI red team engagement end-to-end
@@ -221,8 +221,8 @@ Week 5-6: Defensive & Research
 #### Module 3: Tool Building
 
 ```
-□ Study: Garak codebase — how automated LLM probing works
-□ Study: PyRIT codebase — red team orchestration patterns
+□ Study: Garak codebase - how automated LLM probing works
+□ Study: PyRIT codebase - red team orchestration patterns
 □ Build: A tool that solves an AI security problem you've identified
 □ Open source: Release under a permissive license
 □ Contribute: Add to tools/README.md

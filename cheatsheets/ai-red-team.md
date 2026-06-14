@@ -1,4 +1,4 @@
-# AI Red Team Cheat Sheet
+﻿# AI Red Team Cheat Sheet
 
 > End-to-End AI Red Team Methodology
 > For authorized engagements only.
@@ -26,7 +26,7 @@ Phase 5: REPORTING
 
 ---
 
-## Phase 1 — Reconnaissance
+## Phase 1 - Reconnaissance
 
 ### Questions to Answer Before Testing
 
@@ -57,7 +57,7 @@ Guardrails:
 
 ---
 
-## Phase 2 — Threat Modeling
+## Phase 2 - Threat Modeling
 
 ### AI Attack Surface Matrix
 
@@ -74,13 +74,13 @@ Guardrails:
 
 ---
 
-## Phase 3 — Testing
+## Phase 3 - Testing
 
 ### 3.1 System Prompt Extraction
 
 ```
 Priority: Always attempt this first.
-Goal: Understand the full system prompt — constraints, instructions, persona.
+Goal: Understand the full system prompt - constraints, instructions, persona.
 
 Techniques:
 1. Direct ask:
@@ -188,7 +188,7 @@ Session persistence:
 
 ---
 
-## Phase 4 — Exploitation Chains
+## Phase 4 - Exploitation Chains
 
 ### Example Attack Chains
 
@@ -215,12 +215,12 @@ Chain 3: Agent → File System
 
 ---
 
-## Phase 5 — Reporting
+## Phase 5 - Reporting
 
 ### Finding Template
 
 ```
-Title: [Attack Type] — [System Component]
+Title: [Attack Type] - [System Component]
 
 Severity: Critical / High / Medium / Low / Informational
 

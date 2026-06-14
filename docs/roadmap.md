@@ -1,10 +1,10 @@
-# Roadmap
+﻿# Roadmap
 
 > The plan for making AI Security Hub the definitive AI security resource.
 
 ---
 
-## Phase 1 — Foundation (Current)
+## Phase 1 - Foundation (Current)
 
 **Goal: Launch with real depth, not just links**
 
@@ -24,7 +24,7 @@
 
 ---
 
-## Phase 2 — Community Growth
+## Phase 2 - Community Growth
 
 **Goal: Become the go-to reference for AI security professionals**
 
@@ -40,7 +40,7 @@
 
 ---
 
-## Phase 3 — Authority
+## Phase 3 - Authority
 
 **Goal: Become the canonical reference, cited by researchers and teams**
 

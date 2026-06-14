@@ -1,4 +1,4 @@
-# AI Security Tools
+﻿# AI Security Tools
 
 > The most comprehensive catalog of AI security tooling.
 > Open source preferred. Commercial tools included if widely used or have free tier.
@@ -26,9 +26,9 @@
 | Tool | Type | Stars | Description | Link |
 |---|---|---|---|---|
 | **Garak** | Open Source | ⭐ 5k+ | Comprehensive LLM vulnerability scanner with 100+ probes for prompt injection, data leakage, toxicity, and more | [GitHub](https://github.com/NVIDIA/garak) |
-| **PyRIT** | Open Source | ⭐ 3k+ | Microsoft's Python Risk Identification Toolkit — orchestrates multi-turn red team attacks | [GitHub](https://github.com/Azure/PyRIT) |
+| **PyRIT** | Open Source | ⭐ 3k+ | Microsoft's Python Risk Identification Toolkit - orchestrates multi-turn red team attacks | [GitHub](https://github.com/Azure/PyRIT) |
 | **promptmap** | Open Source | ⭐ 1k+ | Automated prompt injection testing tool targeting custom GPT instances | [GitHub](https://github.com/utkusen/promptmap) |
-| **LLMFuzzer** | Open Source | ⭐ 500+ | Fuzzing framework for LLMs — discovers unexpected behaviors | [GitHub](https://github.com/mnns/LLMFuzzer) |
+| **LLMFuzzer** | Open Source | ⭐ 500+ | Fuzzing framework for LLMs - discovers unexpected behaviors | [GitHub](https://github.com/mnns/LLMFuzzer) |
 | **prompt-injection-tester** | Open Source | - | Test suite for prompt injection vulnerabilities | [GitHub](https://github.com) |
 
 ### Using Garak
@@ -66,8 +66,8 @@ garak --list-probes
 | Tool | Type | Description | Link |
 |---|---|---|---|
 | **NeMo Guardrails** | Open Source | NVIDIA's programmable guardrail framework for conversational AI | [GitHub](https://github.com/NVIDIA/NeMo-Guardrails) |
-| **Guardrails AI** | Open Source | Validation and correction framework for LLM outputs — define rules, fix violations | [GitHub](https://github.com/guardrails-ai/guardrails) |
-| **LlamaGuard** | Open Source | Meta's safety classifier — fine-tuned Llama for I/O classification | [GitHub](https://github.com/meta-llama/PurpleLlama) |
+| **Guardrails AI** | Open Source | Validation and correction framework for LLM outputs - define rules, fix violations | [GitHub](https://github.com/guardrails-ai/guardrails) |
+| **LlamaGuard** | Open Source | Meta's safety classifier - fine-tuned Llama for I/O classification | [GitHub](https://github.com/meta-llama/PurpleLlama) |
 | **Rebuff** | Open Source | Self-hardening prompt injection detection API with heuristics + LLM + vector DB | [GitHub](https://github.com/protectai/rebuff) |
 | **Lakera Guard** | Commercial | Real-time prompt injection, PII, toxicity detection API | [Website](https://www.lakera.ai) |
 | **Azure PromptShield** | Commercial | Microsoft's prompt injection and jailbreak detection | [Docs](https://learn.microsoft.com/en-us/azure/ai-services/content-safety/) |
@@ -91,7 +91,7 @@ garak --list-probes
 
 | Tool | Type | Description | Link |
 |---|---|---|---|
-| **AgentDojo** | Open Source | Agent security evaluation — tests agents against injection and task hijacking | [GitHub](https://github.com/ethz-spylab/agentdojo) |
+| **AgentDojo** | Open Source | Agent security evaluation - tests agents against injection and task hijacking | [GitHub](https://github.com/ethz-spylab/agentdojo) |
 | **Invariant Analyzer** | Open Source | Dynamic analysis of MCP and agent execution traces for security violations | [GitHub](https://github.com/invariantlabs-ai/invariant) |
 | **AgentBench** | Open Source | Comprehensive agent capability and safety benchmark | [GitHub](https://github.com/THUDM/AgentBench) |
 
@@ -101,7 +101,7 @@ garak --list-probes
 
 | Tool | Type | Description | Link |
 |---|---|---|---|
-| **mcp-scan** | Open Source | Static analysis scanner for MCP server configurations — detects tool poisoning | [GitHub](https://github.com/invariantlabs-ai/mcp-scan) |
+| **mcp-scan** | Open Source | Static analysis scanner for MCP server configurations - detects tool poisoning | [GitHub](https://github.com/invariantlabs-ai/mcp-scan) |
 | **Invariant Analyzer** | Open Source | Dynamic trace analysis for MCP tool calls | [GitHub](https://github.com/invariantlabs-ai/invariant) |
 | **MCP Inspector** | Open Source | Official debugging and inspection tool for MCP servers | [GitHub](https://github.com/modelcontextprotocol/inspector) |
 
@@ -111,7 +111,7 @@ garak --list-probes
 
 | Tool | Type | Description | Link |
 |---|---|---|---|
-| **Ragas** | Open Source | RAG evaluation framework — measures faithfulness, relevance, and safety | [GitHub](https://github.com/explodinggradients/ragas) |
+| **Ragas** | Open Source | RAG evaluation framework - measures faithfulness, relevance, and safety | [GitHub](https://github.com/explodinggradients/ragas) |
 | **ARES** | Open Source | Automated RAG evaluation system | [GitHub](https://github.com/stanford-futuredata/ARES) |
 | **Garak** (RAG probes) | Open Source | Garak includes probes for RAG-specific vulnerabilities | [GitHub](https://github.com/NVIDIA/garak) |
 

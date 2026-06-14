@@ -1,7 +1,7 @@
-# AI Security Research Database
+﻿# AI Security Research Database
 
 > Curated papers, blogs, talks, and reports that define the AI security field.
-> Maintained by the community — [contribute a resource](../CONTRIBUTING.md).
+> Maintained by the community - [contribute a resource](../CONTRIBUTING.md).
 
 ---
 
@@ -110,7 +110,7 @@
 ## Contributing Research
 
 Know a paper, blog, or talk that belongs here?
-Open a PR with label `research` — see [CONTRIBUTING.md](../CONTRIBUTING.md).
+Open a PR with label `research` - see [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 Format:
 ```markdown

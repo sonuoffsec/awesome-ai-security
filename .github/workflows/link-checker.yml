@@ -1,4 +1,4 @@
-name: Link Checker
+﻿name: Link Checker
 
 on:
   schedule:
@@ -39,6 +39,6 @@ jobs:
         if: failure()
         uses: peter-evans/create-issue-from-file@v5
         with:
-          title: "Broken links found — automated check"
+          title: "Broken links found - automated check"
           content-filepath: ./lychee/out.md
           labels: bug, broken-link, automated

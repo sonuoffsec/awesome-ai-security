@@ -1,6 +1,6 @@
-# MCP Security
+﻿# MCP Security
 
-> Model Context Protocol Security — Dedicated Research Section
+> Model Context Protocol Security - Dedicated Research Section
 > MCP is the fastest-growing AI attack surface.
 
 ---
@@ -36,7 +36,7 @@ As MCP adoption grows, so does its attack surface.
 
 See full cheat sheet → [cheatsheets/mcp-security.md](../cheatsheets/mcp-security.md)
 
-### Tier 1 — Critical
+### Tier 1 - Critical
 
 | Technique | Description | Impact |
 |---|---|---|
@@ -44,7 +44,7 @@ See full cheat sheet → [cheatsheets/mcp-security.md](../cheatsheets/mcp-securi
 | **Indirect Injection via Tool Output** | Instructions injected through tool return values | Goal hijacking |
 | **Cross-Server Privilege Escalation** | Abuse trusted server to attack another | Privilege escalation |
 
-### Tier 2 — High
+### Tier 2 - High
 
 | Technique | Description | Impact |
 |---|---|---|
@@ -53,7 +53,7 @@ See full cheat sheet → [cheatsheets/mcp-security.md](../cheatsheets/mcp-securi
 | **Rug Pull Attack** | Tool behavior changed post-user approval | Persistent compromise |
 | **Confused Deputy** | Legitimate server tricked into harmful actions | Unintended actions |
 
-### Tier 3 — Medium
+### Tier 3 - Medium
 
 | Technique | Description | Impact |
 |---|---|---|
@@ -119,7 +119,7 @@ See full cheat sheet → [cheatsheets/mcp-security.md](../cheatsheets/mcp-securi
 
 | Name | Description | Vulnerability Types | Deploy |
 |---|---|---|---|
-| [DVAP MCP Module](https://github.com/sonuoffsec/dvap) | Official hub lab — multiple MCP vulnerabilities | Tool poisoning, injection, rug pull | Docker |
+| [DVAP MCP Module](https://github.com/sonuoffsec/dvap) | Official hub lab - multiple MCP vulnerabilities | Tool poisoning, injection, rug pull | Docker |
 | Build your own | Use the attack techniques above to create test servers | All types | Python/Node |
 
 > **Contribute**: If you've built a vulnerable MCP server for research, [submit it](../CONTRIBUTING.md).
@@ -162,17 +162,17 @@ Before connecting any MCP server:
   ✓ Manually review all tool descriptions (look for hidden instructions)
   ✓ Check: does the description contain instruction-like language?
   ✓ Check: is the description length suspiciously long?
-  ✓ Verify the server source — only connect to trusted, audited servers
+  ✓ Verify the server source - only connect to trusted, audited servers
   ✓ Check GitHub issues/PRs for known security reports
 
 When deploying MCP servers:
-  ✓ Minimal tool surface — only expose tools that are needed
+  ✓ Minimal tool surface - only expose tools that are needed
   ✓ Validate and sanitize all tool inputs
   ✓ Encode/escape all tool outputs before returning to model
   ✓ Log all tool invocations with full parameters
   ✓ Implement rate limiting on all tools
   ✓ Use read-only tools where write access isn't needed
-  ✓ Pin server version — alert users to definition changes
+  ✓ Pin server version - alert users to definition changes
 
 Architecture:
   ✓ Separate high-trust and low-trust servers into different sessions
